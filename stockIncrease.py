@@ -10,7 +10,7 @@ import time
 # initial declaration
 stockName = input("What is the stock you are looking for: ")
 watchPrice = input("What is your watch price for the stock?")
-sender_email1 = input("Bot email: ")
+sender_email1 = input("Bot email, It must be an outlook address: ") #This will be where you put the email of your bot, It must be an outlook address.
 password1 = input("Bot email password: ")
 options = webdriver.ChromeOptions()
 options.add_argument("--start-maximized")
