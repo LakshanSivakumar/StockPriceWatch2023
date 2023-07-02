@@ -3,8 +3,8 @@ import ssl
 
 
 port = 587
-smtp_server = "smtp.outlook.com"  # Enter bot's your address
-receiver_email = "sivalakshan724@gmail.com"  # Enter receiver address
+smtp_server = "smtp.outlook.com" 
+receiver_email = "sivalakshan724@gmail.com"  # Change this address to the address where you want to recieve the email from the bot
 # create a secure SSL context
 
 context = ssl.create_default_context()
